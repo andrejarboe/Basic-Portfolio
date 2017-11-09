@@ -1,10 +1,23 @@
-html {
-    position: relative;
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  .wrapper {
     min-height: 100%;
-}
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -65px;
+  }
+  
+  .footer,
+  .push {
+    height: 60px;
+  }
 
 body{
-    margin: 0 0 60px;
+    /* margin: 0 0 60px; */
     background: wheat;
 }
 
@@ -52,7 +65,7 @@ a{
 
 /* Content */
 section{
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 article{
@@ -127,14 +140,11 @@ article h1{
 
 /* Footer */
 footer{
-    height: 60px;
     background: gray;
     text-align: center;
     color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     border-top: 5px solid teal;
-    margin-top: 20px;
+    /* clear: both; */
+    height: 60px;
 }

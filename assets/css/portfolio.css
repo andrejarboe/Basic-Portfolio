@@ -22,9 +22,12 @@ img{
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 25px;
 }
 
 footer{
-    margin-top: 300px;
+    margin-top: 500px;
 }
 

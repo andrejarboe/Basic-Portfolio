@@ -5,8 +5,17 @@ label{
 
 input{
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .submit{
-    width: 25%;
+    width: 85px;
+    height: 25px;
+    background: teal;
+    color: white;
+    border: none;
+    
+}
+textarea{
+    width: 100%;
 }

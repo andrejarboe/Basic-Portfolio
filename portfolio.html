@@ -7,48 +7,72 @@
     <title>Andre's Portfolio</title>
 
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">    
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Martel|Pridi" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">    
 </head>
 <body>
     <header>
         <div class="container">
-            <section class="name">
-                <h1>Andre' Jarboe II</h1>
-            </section>
-
+            <strong id="name">Andre Jarboe II</strong>
             <nav>
-                <ul>
-                    <li><a href="./index.html">About</a></li>
-                    <li><a href="./portfolio.html" alt="">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav> 
+                <a href="./index.html">About</a> 
+                <a href="./portfolio.html">| Portfolio |</a>
+                <a href="./contact.html">Contact</a>
+            </nav>            
         </div>
     </header>
 
-    <section class="container">
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <hr />
-            <img src="./assets/images/profile.jpg" alt="">
-            <img src="./assets/images/profile.jpg" alt="">
-            <img src="./assets/images/profile.jpg" alt="">
-            <img src="./assets/images/profile.jpg" alt="">
-            <img src="./assets/images/profile.jpg" alt="">
-        </section>
+    <section>
+        <div class="container">
+            <article>
+                <h1>Portfolio</h1>
+                <div class="line"></div>
+                <div class="row">
+                    <div class="left">
+                            <img class="" src="./assets/images/profile.jpg" alt="">                
+                        </div>
+                    <div class="right">
+                        <img class="" src="./assets/images/profile.jpg" alt="">
+                        <div class="title">
+                            <h4>hangman</h4>
+                        </div>                
+                    </div>
+                </div>
 
-        <section id="contact">
-            <h2>Contact me</h2>
-            <hr />
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </section>
+                <div class="row">
+                    <div class="left">
+                            <img class="" src="./assets/images/profile.jpg" alt="">                
+                        </div>
+                    <div class="right">
+                        <img class="" src="./assets/images/profile.jpg" alt="">                
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                            <img class="" src="./assets/images/profile.jpg" alt="">                
+                        </div>
+                </div>
+
+            </article>
+
+            <aside>
+                <h1>Connect With Me</h1>
+                <div class="line"></div>
+                <div id="logos">
+                    <a href="https://github.com/andrejarboe" target="_blank"><img class="logo logo1" src="./assets/images/github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-jarboe-ii-329970122/" target="_blank"><img class="logo logo2" src="./assets/images/linkedin.png" alt=""></a>
+                    <a href="https://stackexchange.com/users/11061844/andr%C3%A9-jarboe-ii" target="_blank"><img class="logo logo3" src="./assets/images/stack.png" alt=""></a>        
+                </div>           
+            </aside>
+        </div>
     </section>
 
     <footer>
-        <p>Copyright 2017 Andre Jarboe II</p>
+        <div class="container">
+            <p>Copyright 2017 Andre Jarboe II</p>
+        </div>
     </footer>
-
 </body>
 </html>

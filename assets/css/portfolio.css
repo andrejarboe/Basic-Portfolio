@@ -1,0 +1,30 @@
+.thumb{
+    width: 40%;
+}
+
+img{
+    width: 228px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+
+}
+
+.title{
+    background: teal;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer{
+
+}

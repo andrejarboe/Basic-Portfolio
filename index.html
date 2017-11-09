@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Martel|Pridi" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -14,9 +15,9 @@
         <div class="container">
             <strong id="name">Andre Jarboe II</strong>
             <nav>
-                <a href="">About</a> 
-                <a href="">| Portfolio |</a>
-                <a href="">Contact</a>
+                <a href="./index.html">About</a> 
+                <a href="./portfolio.html">| Portfolio |</a>
+                <a href="./contact.html">Contact</a>
             </nav>            
         </div>
     </header>
@@ -25,8 +26,8 @@
         <div class="container">
             <article>
                 <h1>About Me</h1>
-                <hr />
-                <img src="./assets/images/profile.jpg" alt="">
+                <div class="line"></div>
+                <img class="profile" src="./assets/images/profile.jpg" alt="">
                 <p>
                     Hi! My name is Andre Jarboe II. 
                     I am a Full-stack Web developer currently working my way through the Georgia Tech coding bootcamp. 
@@ -42,7 +43,11 @@
             <aside>
                 <h1>Connect With Me</h1>
                 <hr />
-                <img src="" alt="">
+                <div id="logos">
+                    <a href="https://github.com/andrejarboe"><img class="logo logo1" src="./assets/images/github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-jarboe-ii-329970122/"><img class="logo logo2" src="./assets/images/linkedin.png" alt=""></a>
+                    <a href=""><img class="logo logo3" src="./assets/images/stack.png" alt=""></a>        
+                </div>           
             </aside>
         </div>
     </section>

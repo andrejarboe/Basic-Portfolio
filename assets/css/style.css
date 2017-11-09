@@ -13,6 +13,12 @@ body{
     margin: 0 auto;
 }
 
+.line{
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+    margin: 20px 0;
+}
+
 /* Header/Nav */
 header{
     height: 60px;
@@ -45,6 +51,10 @@ a{
 }
 
 /* Content */
+section{
+    margin-bottom: 40px;
+}
+
 article{
     background: white;
     width: 650px;
@@ -53,15 +63,16 @@ article{
     padding: 40px;
 }
 
-p{
-    line-height: 2;
-}
-
-img{
+.profile{
     width: 100px;
     float: left;
     margin-right: 20px;
 }
+
+p{
+    line-height: 2;
+}
+
 
 /* aside */
 aside{
@@ -78,6 +89,42 @@ h1{
     font-weight: bold;
 }
 
+article h1{
+    font-size: 40px;
+}
+
+#logos{
+    margin-left: auto; 
+    margin-right: auto;
+
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.logo{
+    width: 30%;
+    margin: auto;
+}
+
+.logo1{
+    float: left;
+}
+
+.logo2{
+    margin: 0 9px;
+}
+
+.logo3{
+    float: right;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+} 
+
 /* Footer */
 footer{
     height: 60px;
@@ -89,4 +136,5 @@ footer{
     left: 0;
     width: 100%;
     border-top: 5px solid teal;
+    margin-top: 20px;
 }

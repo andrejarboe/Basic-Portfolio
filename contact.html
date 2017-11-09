@@ -7,54 +7,63 @@
     <title>Andre's Portfolio</title>
 
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">    
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Martel|Pridi" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">    
 </head>
 <body>
+    <div class="wrapper">
     <header>
         <div class="container">
-            <section class="name">
-                <h1>Andre' Jarboe II</h1>
-            </section>
-
+            <strong id="name">Andre Jarboe II</strong>
             <nav>
-                <ul>
-                    <li><a href="./index.html">About</a></li>
-                    <li><a href="./portfolio.html" alt="">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav> 
+                <a href="./index.html">About</a> 
+                <a href="./portfolio.html">| Portfolio |</a>
+                <a href="./contact.html">Contact</a>
+            </nav>            
         </div>
     </header>
 
-    <section class="container">
-        <section id="portfolio">
-            <h2>Contact</h2>
-            <hr />
-            
-            <form action="">
-                <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="John Smith" />
+    <section>
+        <div class="container">
+            <article>
+                <h1>Contact</h1>
+                <div class="line"></div>
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <br />
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </article>
 
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="example@gmail.com">
-
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </form>
-        </section>
-
-        <section id="contact">
-            <h2>Connect with Me</h2>
-            <hr />
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </section>
+            <aside>
+                <h1>Connect With Me</h1>
+                <div class="line"></div>
+                <div id="logos">
+                    <a href="https://github.com/andrejarboe" target="_blank"><img class="logo logo1" src="./assets/images/github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-jarboe-ii-329970122/" target="_blank"><img class="logo logo2" src="./assets/images/linkedin.png" alt=""></a>
+                    <a href="https://stackoverflow.com/users/8122808/andr%C3%A9-jarboe-ii" target="_blank"><img class="logo logo3" src="./assets/images/stack.png" alt=""></a>        
+                </div>           
+            </aside>
+        </div>
     </section>
 
-    <footer>
-        <p>Copyright 2017 Andre Jarboe II</p>
-    </footer>
+    <div class="push"></div>
 
+</div>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &#169 2017 Andre Jarboe II</p>
+        </div>
+    </footer>
 </body>
 </html>

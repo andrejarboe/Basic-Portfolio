@@ -1,15 +1,19 @@
-body{
-    background: wheat;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-
+body{
+    margin: 0 0 60px;
+    background: wheat;
+}
 
 .container{
     width: 960px;
     margin: 0 auto;
-    border: 1px dashed black;
 }
 
+/* Header/Nav */
 header{
     height: 60px;
     background: white;
@@ -26,13 +30,21 @@ header{
     box-sizing: border-box;
     padding: 20px 0;
     font-size: 20px;
+    font-weight: bold;
 }
 
 nav{
     float: right;
     padding: 20px 0;
+    color: lightgray;
 }
 
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+/* Content */
 article{
     background: white;
     width: 650px;
@@ -41,10 +53,40 @@ article{
     padding: 40px;
 }
 
+p{
+    line-height: 2;
+}
+
+img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* aside */
 aside{
     width: 270px;
     float: right;
     background: white;
     box-sizing: border-box;
     padding: 40px;
+}
+
+h1{
+    font-size: 20px;
+    color: teal;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    height: 60px;
+    background: gray;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid teal;
 }
